@@ -40,13 +40,24 @@ StayTrack is a modern real estate web application built with React, Vite, and Ta
 
 ## Getting Started
 
-1. **Install dependencies:**
+1. **Clone the Repository**
+
+  ```bash
+  git clone https://github.com/jeevabarathishivakumar/stayview.git
+  ```
+
+2.  **Navigate to the Project Folder**
+   ```bash
+    cd staytrack-real-estate-machine-test
+    ```
+
+3. **Install dependencies:**
    ```bash
    npm install
    ```
 
 
-2. **Start the Development Server**
+4. **Start the Development Server**
 
 Run the Vite development server:
 
