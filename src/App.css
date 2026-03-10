@@ -1,0 +1,183 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.custom-bottom {
+  bottom: -120px;
+
+
+}
+
+@media (max-width: 355px) {
+  .custom-bottom {
+    bottom: -320px;
+
+
+  }
+
+  .custom-margin {
+    margin-bottom: 220px;
+  }
+}
+
+@media (min-width: 354px) and (max-width: 425px) {
+  .custom-bottom {
+    bottom: -280px;
+
+
+  }
+
+  .custom-margin {
+    margin-bottom: 200px;
+
+
+  }
+}
+
+
+@media (min-width: 425px) and (max-width: 485px) {
+  .custom-bottom {
+    bottom: -250px;
+
+
+  }
+
+  .custom-margin {
+    margin-bottom: 170px;
+
+  }
+}
+
+@media (min-width: 485px) and (max-width: 550px) {
+  .custom-bottom {
+    bottom: -190px;
+
+
+
+
+  }
+
+  .custom-margin {
+    margin-bottom: 160px;
+
+  }
+}
+
+@media (min-width: 550px) and (max-width: 680px) {
+  .custom-bottom {
+    bottom: -150px;
+
+
+
+
+  }
+
+  .custom-margin {
+    margin-bottom: 160px;
+
+  }
+}
+
+@media (min-width: 680px) and (max-width: 768px) {
+  .custom-bottom {
+    bottom: -130px;
+
+
+
+  }
+
+  .custom-margin {
+    margin-bottom: 100px;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 779px) {
+  .custom-bottom {
+    bottom: -70px;
+
+
+  }
+}
+
+@media (min-width: 780px) and (max-width: 860px) {
+  .custom-bottom {
+    bottom: -50px;
+
+
+  }
+}
+
+@media (min-width: 860px) and (max-width: 900px) {
+  .custom-bottom {
+    bottom: -70px;
+
+
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+  .custom-bottom {
+    bottom: -90px;
+
+
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1100px) {
+  .custom-bottom {
+    bottom: 0px;
+
+
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1240px) {
+  .custom-bottom {
+    bottom: -100px;
+
+
+  }
+}

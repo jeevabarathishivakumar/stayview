@@ -1,0 +1,29 @@
+@import "tailwindcss"; 
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+@keyframes typewriter {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blinkCaret {
+  50% { border-color: transparent }
+}
+
+.typewriter {
+  overflow: hidden; 
+  white-space: nowrap;
+  animation: typewriter 3s steps(40, end), blinkCaret 0.75s step-end infinite;
+}
+
+
+@font-face {
+  font-family: 'OmnesArabic';
+  src: url('./assets/fonts/OmnesArabic.woff2') format('woff2'),
+       url('./assets/fonts/OmnesArabic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
