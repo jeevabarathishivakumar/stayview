@@ -48,10 +48,11 @@ StayTrack is a modern real estate web application built with React, Vite, and Ta
 
 2.  **Navigate to the Project Folder**
    ```bash
-    cd staytrack-real-estate-machine-test
-    ```
+   cd staytrack-real-estate-machine-test
+   ```
 
-3. **Install dependencies:**
+3.  **Install dependencies:**
+
    ```bash
    npm install
    ```
